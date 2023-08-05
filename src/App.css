@@ -1,0 +1,420 @@
+:root {
+  --navbar-bottom-color: #004AAD;
+  --navbar-top: #F0F4FD;
+  /* background-color: #333399;
+  background-image: linear-gradient(90deg, #333399 0%, #C850C0 80%); */
+}
+#root{
+  background-color: #2156fd;
+background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
+
+
+}
+p{
+  font-weight: 600;
+}
+
+* {
+  text-decoration: none !important;
+}
+
+a {
+  color: black;
+}
+.navbar-top-section {
+  padding: 3px 0;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+@media(max-width:850px){
+  .navbar-top-section{
+    display: none;
+  }
+}
+
+.navbar {
+ background-color: #2156fd;
+background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
+
+
+}
+
+.navbar img {
+  width: 200px;
+}
+
+.navbar-collapse ul>li>a {
+  color: #FFF !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-weight: 700;
+  font-size: 20px !important;
+}
+
+.navbar-collapse ul>li>a:hover {
+  color: #aaa !important;
+}
+
+span .navbar-toggler-icon {
+  color: #fff !important;
+}
+
+/* OVARLEY SECTION START */
+.ovarley {
+  background-color: rgba(0, 0, 0, .8);
+  height: 100vh;
+  width: 0;
+  /* top: 0;
+  left: 0; */
+  overflow-x: hidden;
+  position: fixed;
+  transition: width 1.2s ease;
+  z-index: 9999;
+
+}
+
+.nav-links {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+.cross-icon {
+  border: none;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 20px;
+  position: absolute;
+  top: 25px;
+  right: 45px;
+}
+
+.nav-links a {
+  color: #aaa;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.navbar-open {
+  width: 100%;
+}
+/* .navbar-bottom-section {
+  border-bottom: 1px solid #aaa;
+} */
+
+/* OVARLEY SECTION END */
+
+
+/* swiper slide start */
+.swiper-slide {
+  /* background-color: #004aad;
+  background-image: linear-gradient(180deg, #004aad 5%, #80D0C7 100%); */
+  /* background-color: #004AAD; */
+  align-items: center;
+}
+/* .sviperler{
+  background-color: #004aad;
+  background-image: linear-gradient(180deg, #004aad 5%, #80D0C7 100%);
+  background-color: #004AAD;
+} */
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+}
+
+
+
+.slide1-left h1 {
+  font-weight: 700;
+  padding: 55px 0 0 40px;
+  font-size: 54px;
+  font-family: "Open Sans";
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.slide1-left h5 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  padding-left:40px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.swiperslide1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -11px;
+  margin-bottom: 0px;
+}
+.swiperslide2 {
+  width: 100%;
+  height: 100%;
+  margin-top: 31px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide2-left h1 {
+  padding: 55px 0 0 40px;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Open Sans";
+  color: #FFF;
+  margin-bottom: 28px;
+}
+.slide2-left h5 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 40px;
+  margin-bottom: 40px;
+}
+.howit1 {
+  margin-bottom: 40px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  background-color: rgb(199, 106, 11);
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 20px;
+}
+.howit2 {
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  background-color: rgb(199, 106, 11);
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 20px;
+}
+
+@media(max-width:768px) {
+  .swiperslide1 .slide1-left {
+    order: 2;
+  }
+
+  .swiperslide2 .slide2-left {
+    order: 2;
+  }
+  .slide1-left h1 {
+    padding: 25px 0 0 0px;
+    font-size: 54px;
+  }
+  
+  .slide1-left h5 {
+    font-size: 20px;
+    padding-left:0;
+    margin-bottom: 40px;
+  }
+  .slide2-left h1 {
+    padding: 25px 0 0 0px;
+    font-size: 54px;
+  }
+  
+  .slide2-left h5 {
+    font-size: 20px;
+    padding-left:0;
+    margin-bottom: 40px;
+  }
+}
+
+
+.instagram,
+.facebook,
+.youtube {
+  font-size: 21px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* SERVICES SECTION START */
+.services-section{
+  padding: 45px 0;
+  background-color: #7dccc6;
+  background-image: linear-gradient(180deg, #7dccc6 0%, #ffffff 100%);
+
+}
+.services {
+  color: #aaa;
+  padding: 10px 0;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.services a {
+  color:#222A74;
+}
+.services a >.service1info p, .service2info p, .service3info p{
+  color:#232323;
+}
+.service1info a , .service2info a , .service3info a{
+  font-weight: 700;
+  font-size: 25px;
+}
+.service1info a:hover{
+  color:#fff;}.service2info a:hover{
+  color:#fff;}.service3info a:hover{
+  color:#fff;}
+/* SERVICES SECTION END */
+
+
+/* WHY CHOOSE SECTION START */
+.whychooseus-section{
+  /* background-color: #7dccc6;
+  background-image: linear-gradient(180deg, #7dccc6 0%, #ffffff 100%); */
+  /* background-color: #004AAD; */
+  padding: 15px;
+}
+.why-digital-section , .why-reputasiya-section , .why-kampaniya-section{
+  border: 2px solid #ffffff;
+  color: #fff;
+  /* hover effect speed */
+  transition: all 1s ease; 
+  box-shadow: -1px 0px 3px 1px white;
+  border-radius: 15px;
+}
+.whychooseus-top-side{
+  padding: 80px 0 40px 0;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.whychooseus-top-side h5{
+  font-family: "Nunito",Sans-serif; 
+  font-size: 16px;
+  font-weight: 520;
+  text-transform: uppercase;
+}
+.why-left-img{
+  width: 100% !important;
+}
+/* .digital-img, .reputasiya-img, .kampaniya-img{
+  width: 100%;
+  height: 65%;
+} */
+/* .why-digital-info p , .why-reputasiya-info p , .why-kampaniya-info p{
+  margin-bottom: 1px !important;
+} */
+/* .why-digital-info h3 , .why-reputasiya-info h3 , .why-kampaniya-info h3{
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 32px;
+} */
+.digital-img, .reputasiya-img, .kampaniya-img{
+  width: 70px;
+  height: 70px;
+}
+.digital-info-1, .reputasiya-info-1, .kampaniya-info-1{
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 28px;
+}
+.digital-info-2, .reputasiya-info-2, .kampaniya-info-2{
+  margin-bottom: 1px !important;
+}
+.why-digital-section:hover{
+  background-color: #222A74;
+  transform: translateX(-15px);
+  translate: initial;
+  box-shadow: 13px 16px 26px 5px rgb(212 1 243 / 93%);
+  color: #fff !important;
+  
+}
+.why-reputasiya-section:hover{
+  background-color: #222A74;
+  transform: translateX(-15px);
+  translate: initial;
+  box-shadow: 15px -3px 83px 26px rgb(212 1 243 / 93%);
+  color: #fff !important;
+  
+}
+.why-kampaniya-section:hover{
+  background-color: #222A74;
+  transform: translateX(-15px);
+  translate: 0.9 ease;
+  box-shadow: 13px 16px 26px 5px rgb(212 1 243 / 93%);
+  color: #fff !important;
+  
+}
+/* WHY CHOOSE SECTION END */
+
+/* who are we START */
+
+.whoarewe-section{
+  padding: 100px 20px 100px 20px;
+}
+.bizkimik{
+  text-align: center;
+  font-size: 55px;
+}
+.rating{
+  justify-content:space-around;
+  text-align: center;
+}
+
+.ugurlu-layiheler, .memnun-musteriler{
+  border: 1px solid #aaa;
+  /* box-shadow: 0 8px 16px 0 rgba(234, 232, 255, .18); */
+  box-shadow: 13px 16px 26px 5px #909090;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 20px;
+  background-color:#fafcfc;
+  color: #ff9100;
+  width: 40% !important;
+}
+.whoarewe-right-side img {
+  width: 100%;
+}
+@media(max-width:768px) {
+  .whoarewe{
+    align-items: center;
+  }
+  .whoarewe-left-side {
+    order: 2;
+  }
+
+  .whoarewe-right-side {
+    order: 1;
+  }
+}
+
+/* who are we END */
+
+/* Footer start */
+
+.text-center{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.fa-ul{
+  margin-left: 1.65em;
+}
+
+/* Footer end */
