@@ -156,7 +156,6 @@ span .navbar-toggler-icon {
 .swiperslide1 {
   display: flex;
   width: 100%;
-  height: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -165,7 +164,6 @@ span .navbar-toggler-icon {
 }
 .swiperslide2 {
   width: 100%;
-  height: 100%;
   margin-top: 31px;
   margin-bottom: 0px;
   display: flex;
@@ -216,10 +214,12 @@ span .navbar-toggler-icon {
 
 @media(max-width:768px) {
   .swiperslide1 .slide1-left {
+    padding: 0 22px 0 44px;
     order: 2;
   }
 
   .swiperslide2 .slide2-left {
+    padding: 0 22px 0 44px;
     order: 2;
   }
   .slide1-left h1 {
@@ -235,6 +235,39 @@ span .navbar-toggler-icon {
   .slide2-left h1 {
     padding: 25px 0 0 0px;
     font-size: 54px;
+  }
+  
+  .slide2-left h5 {
+    font-size: 20px;
+    padding-left:0;
+    margin-bottom: 40px;
+  }
+}
+@media(max-width:500px){
+  .swiperslide1 .slide1-left {
+    order: 2;
+    padding: 0 15px 0 42px;
+  }
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 30px !important;
+  }
+  .swiperslide2 .slide2-left {
+    order: 2;
+    padding: 0 15px 0 42px;
+  }
+  .slide1-left h1 {
+    padding: 25px 0 0 0px;
+    font-size: 34px;
+  }
+  
+  .slide1-left h5 {
+    font-size: 20px;
+    padding-left:0;
+    margin-bottom: 40px;
+  }
+  .slide2-left h1 {
+    padding: 25px 0 0 0px;
+    font-size: 34px;
   }
   
   .slide2-left h5 {
