@@ -16,7 +16,7 @@ const App = () => {
    <Whychooseus/>
    <Whoarewe/>
    <Workers/>
-   <Footer/>
+   {/* <Footer/> */}
 
    </>
   )
