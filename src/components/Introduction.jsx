@@ -16,8 +16,8 @@ const Introduction = () => {
     <div className='sviperler'>
 
     <Swiper
-        // speed={3000}
-        // autoplay={{delay:1700}}
+        speed={3000}
+        autoplay={{delay:1700}}
         slidesPerView={1}
         spaceBetween={30}
         loop={true}

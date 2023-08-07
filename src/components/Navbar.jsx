@@ -54,12 +54,18 @@ const Navbar = () => {
                         <AiOutlineBars />
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                            <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 ms-5">
                                 <li className="nav-item">
-                                    <a className="nav-link  ms-5" aria-current="page" href="#">Şirkət</a>
+                                    <a className="nav-link me-5 ms-5" aria-current="page" href="#">Şirkət</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link ms-5" href="#">Səhifələr<FiChevronDown/></a>
+                                    <a className="nav-link" href="#">Səhifələr<FiChevronDown/></a>
+                                    {/* <ul className='nav-link'>
+                                        <li><a href="">Sayt xidmetleri</a></li>
+                                        <li><a href="">Reklam xidmetleri</a></li>
+                                        <li><a href="">Sosial media idareetmesi</a></li>
+                                        <li><a href="">Foto & Video chekilish</a></li>
+                                    </ul> */}
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link  ms-5" href="#">Haqqımızda</a>

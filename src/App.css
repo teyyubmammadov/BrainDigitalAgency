@@ -15,11 +15,21 @@ p{
 }
 
 * {
+  list-style: none;
   text-decoration: none !important;
 }
 
 a {
   color: black;
+}
+/* Navbar START */
+.navbar {
+ background-color: #2156fd;
+background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
+
+}
+.navbar img {
+  width: 200px;
 }
 .navbar-top-section {
   padding: 3px 0;
@@ -36,18 +46,11 @@ a {
     display: none;
   }
 }
-
-.navbar {
- background-color: #2156fd;
-background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
-
-
+.navbar-expand-lg .navbar-nav .nav-link{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
-
-.navbar img {
-  width: 200px;
-}
-
 .navbar-collapse ul>li>a {
   color: #FFF !important;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
@@ -108,32 +111,18 @@ span .navbar-toggler-icon {
 .navbar-open {
   width: 100%;
 }
-/* .navbar-bottom-section {
-  border-bottom: 1px solid #aaa;
-} */
-
 /* OVARLEY SECTION END */
 
 
-/* swiper slide start */
+/* swiper slide START */
 .swiper-slide {
-  /* background-color: #004aad;
-  background-image: linear-gradient(180deg, #004aad 5%, #80D0C7 100%); */
-  /* background-color: #004AAD; */
   align-items: center;
 }
-/* .sviperler{
-  background-color: #004aad;
-  background-image: linear-gradient(180deg, #004aad 5%, #80D0C7 100%);
-  background-color: #004AAD;
-} */
 
 .swiper-button-prev,
 .swiper-button-next {
   color: white !important;
 }
-
-
 
 .slide1-left h1 {
   font-weight: 700;
@@ -415,7 +404,8 @@ span .navbar-toggler-icon {
 .ugurlu-layiheler, .memnun-musteriler{
   border: 1px solid #aaa;
   /* box-shadow: 0 8px 16px 0 rgba(234, 232, 255, .18); */
-  box-shadow: 13px 16px 26px 5px #909090;
+  /* box-shadow: 13px 16px 26px 5px #bebebe; */
+  box-shadow: 26px 21px 41px 5px #550083;
   font-weight: 700;
   padding: 8px;
   border-radius: 20px;
@@ -451,3 +441,6 @@ span .navbar-toggler-icon {
 }
 
 /* Footer end */
+.card {
+  box-shadow: 13px 16px 26px 5px rgb(0, 0, 0, 0.5);
+}

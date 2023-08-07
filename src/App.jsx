@@ -6,6 +6,7 @@ import Introduction from './components/Introduction'
 import Whychooseus from './components/Whychooseus'
 import Whoarewe from './components/Whoarewe'
 import Footer from './components/Footer'
+import Workers from './components/Workers'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
    <Introduction/>
    <Whychooseus/>
    <Whoarewe/>
-   {/* <Footer/> */}
+   <Workers/>
+   <Footer/>
 
    </>
   )
