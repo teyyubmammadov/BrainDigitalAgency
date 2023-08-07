@@ -13,15 +13,15 @@ const Footer = () => {
       <div className="row mt-4">
         {/*Grid column*/}
         <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 className="text-uppercase mb-4">About company</h5>
+          <h5 className="text-uppercase mb-4">Brain Digital Agency</h5>
 
           <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            Lorem vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
             voluptatum deleniti atque corrupti.
           </p>
 
           <p>
-            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+            Lorem praesentium voluptatum deleniti atque corrupti quos dolores et quas
             molestias.
           </p>
 
@@ -50,13 +50,13 @@ const Footer = () => {
 
           <ul className="fa-ul">
             <li className="mb-3">
-              <span className="fa-li"><i className="fas fa-home"></i></span><span className="ms-2">Warsaw, 00-967, Poland</span>
+              <span className="fa-li"><i className="fas fa-home"></i></span><span className="ms-2">Azerbaijan, Baku</span>
             </li>
             <li className="mb-3">
-              <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">contact@example.com</span>
+              <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">braindigitalagency.1@gmail.com</span>
             </li>
             <li className="mb-3">
-              <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+ 48 234 567 88</span>
+              <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+994 50 990 55 03</span>
             </li>
           </ul>
         </div>
@@ -91,8 +91,8 @@ const Footer = () => {
 
     {/* Copyright */}
     <div className="text-center p-3">
-      © 2020 Copyright:
-      <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2023 Copyright:
+      <a className="text-white" href="https://mdbootstrap.com/"> Mr Teyyub Mammadov</a>
     </div>
     {/* Copyright */}
   </footer>

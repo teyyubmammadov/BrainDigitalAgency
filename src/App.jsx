@@ -7,6 +7,7 @@ import Whychooseus from './components/Whychooseus'
 import Whoarewe from './components/Whoarewe'
 import Footer from './components/Footer'
 import Workers from './components/Workers'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
    <Whychooseus/>
    <Whoarewe/>
    <Workers/>
-   {/* <Footer/> */}
+   <Contact/>
+   <Footer/>
 
    </>
   )
