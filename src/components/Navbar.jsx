@@ -50,7 +50,7 @@ const Navbar = () => {
                        <a href="#" className='navbar-brand'> 
                        <img className='navbar-logo' src="https://res.cloudinary.com/dlioaagoi/image/upload/v1690826134/fiw6vwxltoqzbirdxh1i-removebg-preview_xkt7pc.png"/> 
                        </a>
-                        <button onClick={overlayiAc} className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button onClick={overlayiAc} className="navbar-toggler border border-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <AiOutlineBars />
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -77,6 +77,12 @@ const Navbar = () => {
                                     <a className="nav-link  ms-5" href="#">Əlaqə</a>
                                 </li>
                             </ul>
+
+                            <div className="sign">
+                                <a href=""><button className='btn btn-primary border border-white signin' type='button'>Sign Up</button></a>
+                                <a href=""><button className='btn btn-primary border border-white ms-2 signin' type='button'>Log in</button></a>
+                            </div>
+
                                 {/* <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown
@@ -92,10 +98,10 @@ const Navbar = () => {
                                     <a className="nav-link active" aria-disabled="true">Disabled</a>
                                 </li> */}
                             
-                            <form className="d-flex" role="search">
+                            {/* <form className="d-flex" role="search">
                                 <input className="form-control me-2" type="search" placeholder="Axtar" aria-label="Search" />
                                 <button className="btn btn-outline-success text-white" type="submit">Axtar</button>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </nav>
