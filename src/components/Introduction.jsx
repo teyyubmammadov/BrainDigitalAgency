@@ -33,7 +33,7 @@ const Introduction = () => {
                 <div className="slide1-left col-12 col-md-5"> 
                     <h1>Strategiya və planlaşdırma bizim fəlsəfəmizin əsaslarıdır</h1>
                     <h5>Biz bütün iqtisadi göstəriciləri hesablayırıq <br/> və reklam kampaniyasının mümkünlüyünü təqdim edirik</h5>
-                    <button type="button" class="btn btn-warning howit1">Necə işləyirik?</button>
+                    <button type="button" class="btn btn-warning border border-danger howit1">Necə işləyirik?</button>
                 </div>
                 <img className='slideimg1 p-0 col-12 col-md-7' src={slide1}/>
             
@@ -44,7 +44,7 @@ const Introduction = () => {
                     <div className="slide2-left col-12 col-md-5">
                         <h1>Biznesinizi inkişaf etdirmək üçün mükəmməl performans göstərin</h1>
                         <h5>Müştəri dəstəyiniz üçün mükəmməl mövzu proqramı hazırlayırıq</h5>
-                        <button type="button" class="btn btn-warning howit2">Bizə qoşul!</button>
+                        <button type="button" class="btn btn-warning border border-danger howit2">Bizə qoşul!</button>
                     </div>
                     <img className='slideimg2 p-0 col-12 col-md-7' width={800} src={slide2}/>
                 

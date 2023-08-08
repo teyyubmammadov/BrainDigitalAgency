@@ -16,7 +16,7 @@ const Whychooseus = () => {
                     <div className="why-digital-section p-2 mb-2 ">
                         <img className='pe-2 digital-img' src="https://res.cloudinary.com/dlioaagoi/image/upload/c_scale,w_100/v1690978302/social-media_2518048_srudxm.png" />
                             <span className='digital-info-1'>Rəqəmsal Marketinq</span>
-                            <p className='digital-info-2'>Hindistanda aparıcı marketinq agentliyi olaraq Value4Brand-da biz yüksək keyfiyyətli rəqəmsal marketinq həlləri təklif edirik ki, brendləri inanılmaz gəlir artımı ilə gücləndiririk, buna görə də şirkətlərə nəticəyönümlü işlərin icrası və tətbiqi ilə sürətlə, davamlı və genişlənə bilən səviyyədə genişlənməsinə kömək edirik. təşəbbüslər. Çətin problemlərin hərtərəfli həlli bizim daim inkişaf edən problemləri qarşılamaq üçün açarımızdır.</p>
+                            <p className='digital-info-2'>Azərbaycanda aparıcı marketinq agentliyi olaraq BRAIN Digital Agency-da biz yüksək keyfiyyətli rəqəmsal marketinq həlləri təklif edirik ki, brendləri inanılmaz gəlir artımı ilə gücləndiririk, buna görə də şirkətlərə nəticəyönümlü işlərin icrası və tətbiqi ilə sürətlə, davamlı və genişlənə bilən səviyyədə genişlənməsinə kömək edirik. təşəbbüslər. Çətin problemlərin hərtərəfli həlli bizim daim inkişaf edən problemləri qarşılamaq üçün açarımızdır.</p>
                     </div>
                     <div className="why-reputasiya-section p-2 mb-2">
                         <img className='pe-2 reputasiya-img' src="https://res.cloudinary.com/dlioaagoi/image/upload/c_scale,w_100/v1690978054/best-employee_3782461_sjqlnd.png" />

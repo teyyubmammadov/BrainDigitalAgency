@@ -278,34 +278,6 @@ span .navbar-toggler-icon {
   margin-bottom: 0 !important;
 }
 
-/* SERVICES SECTION START */
-.services-section{
-  padding: 45px 0;
-  background-color: #7dccc6;
-  background-image: linear-gradient(180deg, #7dccc6 0%, #ffffff 100%);
-
-}
-.services {
-  color: #aaa;
-  padding: 10px 0;
-  border: 2px solid #fff;
-  border-radius: 10px;
-}
-.services a {
-  color:#222A74;
-}
-.services a >.service1info p, .service2info p, .service3info p{
-  color:#232323;
-}
-.service1info a , .service2info a , .service3info a{
-  font-weight: 700;
-  font-size: 25px;
-}
-.service1info a:hover{
-  color:#fff;}.service2info a:hover{
-  color:#fff;}.service3info a:hover{
-  color:#fff;}
-/* SERVICES SECTION END */
 
 
 /* WHY CHOOSE SECTION START */
@@ -353,8 +325,8 @@ span .navbar-toggler-icon {
   font-size: 32px;
 } */
 .digital-img, .reputasiya-img, .kampaniya-img{
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 60px;
 }
 .digital-info-1, .reputasiya-info-1, .kampaniya-info-1{
   font-family: "Open Sans";
@@ -387,6 +359,19 @@ span .navbar-toggler-icon {
   box-shadow: 13px 16px 26px 5px rgb(212 1 243 / 93%);
   color: #fff !important;
   
+}
+@media(max-width:375px){
+  .digital-info-1, .reputasiya-info-1, .kampaniya-info-1{
+    font-size: 18px;
+  }
+  .digital-img, .reputasiya-img, .kampaniya-img {
+    width: 60px;
+    height: 55px;
+}
+.digital-info-2, .reputasiya-info-2, .kampaniya-info-2 {
+  font-size: 13px;
+ 
+}
 }
 /* WHY CHOOSE SECTION END */
 
