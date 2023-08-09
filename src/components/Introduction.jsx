@@ -11,7 +11,6 @@ import slide2 from '../assets/images/intro-slides/slide2.svg'
 
 const Introduction = () => {
 
-
   return (
     <div className='sviperler'>
 
