@@ -1,10 +1,18 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { TbWorldQuestion } from "react-icons/tb";
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger'
+import Aos from 'aos';
 
 
 const Whoarewe = () => {
+
+  useEffect(() => {
+    Aos.init({
+      duration : 2000
+    });
+  }, []);
+  
   const [counterOn, setCounterOn] = useState(false)
 
   return (
@@ -19,11 +27,11 @@ const Whoarewe = () => {
             <img width={200} height={10} className='' src="https://res.cloudinary.com/dlioaagoi/image/upload/v1691092442/minus_545760-removebg-preview_ga4u7o.png" alt="line" />
           <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
             <div className="rating mt-4 row d-flex">
-              <div className="ugurlu-layiheler col-md-6">
+              <div className="ugurlu-layiheler col-md-6" data-aos="zoom-in">
                 <h5>Uğurlu layihələr</h5>
                 {counterOn && <h1><CountUp start={0} end={113} duration={2} delay={0}/>+</h1>}
               </div>
-              <div className="memnun-musteriler col-md-6">
+              <div className="memnun-musteriler col-md-6" data-aos="zoom-in">
                 <h5>Məmnun müştərilər</h5>
                 {counterOn && <h1><CountUp start={0} end={167} duration={2} delay={0}/>+</h1>}
               </div>

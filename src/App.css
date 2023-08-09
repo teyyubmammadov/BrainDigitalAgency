@@ -434,6 +434,7 @@ span .navbar-toggler-icon {
 }
 .contact{
   background-color: #ABC7F7;
+  box-shadow: 0px 21px 12px 36px #ABC7F7;
 }
 .contact-img img{
   width: 100%;
