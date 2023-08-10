@@ -5,7 +5,7 @@ const Whychooseus = () => {
 
     useEffect(() => {
         Aos.init({
-          duration : 2000
+          duration : 1500
         });
       }, []);
 

@@ -9,7 +9,7 @@ const Whoarewe = () => {
 
   useEffect(() => {
     Aos.init({
-      duration : 2000
+      duration : 1500
     });
   }, []);
   
