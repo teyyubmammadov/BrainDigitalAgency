@@ -429,3 +429,19 @@ span .navbar-toggler-icon {
 }
 
 /* Footer end */
+.worker-card {
+  box-shadow: 13px 16px 26px 5px rgb(0, 0, 0, 0.5);
+}
+.contact{
+  background-color: #ABC7F7;
+  box-shadow: 0px 21px 12px 36px #ABC7F7;
+}
+.contact-img img{
+  width: 100%;
+}
+.contact-info img {
+  width: 100%;
+}
+.contacte{
+  padding: 0 20px;
+}
