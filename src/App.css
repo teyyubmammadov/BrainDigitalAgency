@@ -6,7 +6,7 @@
 }
 #root{
   background-color: #2156fd;
-background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
+  background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
 
 
 }
@@ -23,9 +23,63 @@ a {
   color: black;
 }
 
-/* Navbar START */
+/* NAVBAR START */
+
+.sehifelerimiz{
+  position: relative;
+}
+.dropdown-sehifeler{
+  padding-left: 0px;
+  z-index: 999;
+  position:absolute;
+  display: none;
+  min-width: 200px;
+}
+.dropdown-sehifeler a:hover{
+  background-color: #40739e;
+}
+.dropdown-sehifeler a{
+  padding: 8px;
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #273c75;
+}
+.sehifelerimiz:hover .dropdown-sehifeler{
+  display: block;
+}
+/* ---xidmetler dropdown---- */
+.xidmetlerimiz{
+  position: relative;
+}
+.dropdown-xidmetler{
+  padding-left: 48px;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  min-width: 250px;
+}
+
+
+.dropdown-xidmetler a:hover{
+  background-color: #40739e;
+}
+.dropdown-xidmetler a{
+  padding: 8px;
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #273c75;
+}
+.xidmetlerimiz:hover .dropdown-xidmetler{
+  display: block;
+}
+
+
 .navbar {
- background-color: #2156fd;
+  background-color: #2156fd;
 background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
 
 }

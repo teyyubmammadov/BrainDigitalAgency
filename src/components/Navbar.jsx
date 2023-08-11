@@ -58,20 +58,26 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <a className="nav-link me-5 ms-5" aria-current="page" href="#">Şirkət</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item sehifelerimiz">
                                     <a className="nav-link" href="#">Səhifələr<FiChevronDown/></a>
-                                    {/* <ul className='nav-link'>
-                                        <li><a href="">Sayt xidmetleri</a></li>
-                                        <li><a href="">Reklam xidmetleri</a></li>
-                                        <li><a href="">Sosial media idareetmesi</a></li>
-                                        <li><a href="">Foto & Video chekilish</a></li>
-                                    </ul> */}
+                                        <div className="dropdown-sehifeler">
+                                            <a href="#">Sayt xidmetleri</a>
+                                            <a href="#">Reklam xidmetleri</a>
+                                            <a href="#">Sosial media idareetmesi</a>
+                                            <a href="#">Foto & Video chekilish</a>
+                                        </div>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link  ms-5" href="#">Haqqımızda</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item xidmetlerimiz">
                                     <a className="nav-link  ms-5" href="#">Xidmətlər<FiChevronDown/></a>
+                                        <div className="dropdown-xidmetler">
+                                            <a href="#">Sayt xidmetleri</a>
+                                            <a href="#">Reklam xidmetleri</a>
+                                            <a href="#">Sosial media idareetmesi</a>
+                                            <a href="#">Foto & Video chekilish</a>
+                                        </div>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link  ms-5" href="#">Əlaqə</a>
