@@ -36,7 +36,7 @@ a {
   min-width: 200px;
 }
 .dropdown-sehifeler a:hover{
-  background-color: #40739e;
+  background-color: #7E36FF;
 }
 .dropdown-sehifeler a{
   padding: 8px;
@@ -63,7 +63,7 @@ a {
 
 
 .dropdown-xidmetler a:hover{
-  background-color: #40739e;
+  background-color: #5444FE;
 }
 .dropdown-xidmetler a{
   padding: 8px;
@@ -498,4 +498,41 @@ span .navbar-toggler-icon {
 }
 .contacte{
   padding: 0 20px;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#0B5ED7;
+  color: white ;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #3820FF;
+}
+.contact-info img {
+  width: 49%;
+  position: absolute;
+}
+.contact-emailjs{
+    position: relative;
+    max-width: 52%;
+    height: auto !important;
+    left: 27%;
+    top: 32px !important;
+  
 }
