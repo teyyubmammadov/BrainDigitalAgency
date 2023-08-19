@@ -16,7 +16,7 @@ const Introduction = () => {
 
     <Swiper
         speed={3000}
-        autoplay={{delay:1700}}
+        autoplay={{delay:2500}}
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
