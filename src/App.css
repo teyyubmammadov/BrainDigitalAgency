@@ -22,7 +22,6 @@ p{
 a {
   color: black;
 }
-
 /* NAVBAR START */
 
 .sehifelerimiz{
@@ -133,8 +132,9 @@ span .navbar-toggler-icon {
   height: 3em; */
   /* line-height: 2em; */
   text-align: center;
-  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background: (90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
   background-size: 300%;
+  background-color: transparent;
   border-radius: 30px;
   z-index: 1;
 }
@@ -625,12 +625,14 @@ span .navbar-toggler-icon {
 /* Worker END */
 
 /* Contact START */
-.contact{
+
+/* .contact{
   background-color: #ABC7F7;
   box-shadow: 0px 21px 12px 36px #ABC7F7;
-}
+} */
 .contact-img img{
   width: 100%;
+  padding-top: 33px;
 }
 .contact-info img {
   width: 100%;
@@ -663,15 +665,25 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #3820FF;
 }
+.center-text{
+  text-align: center !important;
+  box-shadow: -5px 18px 25px 5px #6e22a9;
+}
+.contact-submit{
+  float: right;
+}
 .contact-info img {
-  width: 49%;
-  position: absolute;
+  width: 100%;
+  /* position: absolute; */
 }
 .contact-emailjs{
+  margin-top: 68px;
+}
+/* .contact-emailjs{
     position: relative;
     max-width: 52%;
     height: auto !important;
     left: 27%;
     top: 32px !important;
   
-}
+} */

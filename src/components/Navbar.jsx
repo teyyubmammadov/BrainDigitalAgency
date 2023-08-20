@@ -3,6 +3,7 @@ import { FiFacebook, FiPhoneCall, FiInstagram, FiYoutube, FiClock, FiChevronDown
 import { SlEnvolope } from "react-icons/sl";
 import {AiOutlineBars} from 'react-icons/ai'
 import {ImCross} from "react-icons/im";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -19,11 +20,11 @@ const Navbar = () => {
         <div className="ovarley" ref={overlayDivi}>
             <button onClick={overlayiBagla} className='cross-icon'> <ImCross/> </button>
                 <div className="nav-links">
-                    <a href="">Home</a>
+                    <Link to="home">Home</Link>
                     <a href="">Səhifələr<FiChevronDown/></a>
                     <a href="">Haqqımızda</a>
                     <a href="">Xidmətlər<FiChevronDown/> </a>
-                    <a href="">Əlaqə</a>
+                    <Link to="contact">Əlaqə</Link>
                 </div>
         </div>
 
@@ -47,16 +48,16 @@ const Navbar = () => {
             <div className="navbar-bottom-section">
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
-                       <a href="#" className='navbar-brand'> 
+                       <Link to="/" className='navbar-brand'> 
                        <img className='navbar-logo' src="https://res.cloudinary.com/dlioaagoi/image/upload/v1690826134/fiw6vwxltoqzbirdxh1i-removebg-preview_xkt7pc.png"/> 
-                       </a>
+                       </Link>
                         <button onClick={overlayiAc} className="navbar-toggler border border-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <AiOutlineBars />
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 ms-5">
                                 <li className="nav-item">
-                                    <a className="nav-link me-5 ms-5" aria-current="page" href="#">Şirkət</a>
+                                    <Link className="nav-link me-5 ms-5" aria-current="page" to="/">Şirkət</Link>
                                 </li>
                                 <li className="nav-item sehifelerimiz">
                                     <a className="nav-link" href="#">Səhifələr<FiChevronDown/></a>
@@ -80,13 +81,13 @@ const Navbar = () => {
                                         </div>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link  ms-5" href="#">Əlaqə</a>
+                                    <Link className="nav-link  ms-5" to="contact">Əlaqə</Link>
                                 </li>
                             </ul>
 
                             <div className="sign">
-                                <a href=""><button className='btn btn-primary border border-white signin' type='button'>Sign Up</button></a>
-                                <a href=""><button className='btn btn-primary border border-white ms-2 signin' type='button'>Log in</button></a>
+                                <a href=""><button className=' signin' type='button'>Sign Up</button></a>
+                                <a href=""><button className=' ms-3 signin' type='button'>Log in</button></a>
                             </div>
 
                                 {/* <li className="nav-item dropdown">

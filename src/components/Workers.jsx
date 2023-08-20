@@ -18,7 +18,7 @@ const Workers = () => {
         <div className="kart">
             <div className="container">
                 <div className="comando-top-side">
-                    <h1 className='text-white text-center mb-2'>İcra komandası <HiUserGroup/></h1>
+                    <h1 className='text-white center-text mb-2'>İcra komandası <HiUserGroup/></h1>
                 </div>
                 <div className="row justify-content-around">
 

@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaTeamspeak } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -22,17 +23,18 @@ const Contact = () => {
     // formEl.current.reset()
 
     return (
-        <div className="contacto mt-5">
+        <div className="contacto">
             <div className="contact py-3">
+                        <h1 className='text-white center-text'>Bizimlə əlaqə <FaTeamspeak/></h1>
                 <div className="contacte">
-                    <h1 className='text-white text-center'>Bizimlə əlaqə</h1>
+                    
                     <div className="row justify-content-around align-items-center">
                         <div className="contact-img col-12 col-md-6 col-lg-6">
                             <img src="https://res.cloudinary.com/dlioaagoi/image/upload/v1691441007/contact-1024x763_qofmmp.png" alt="" />
                         </div>
 
                         <div className="contact-info col-12 col-md-6 col-lg-6">
-                            <img src="https://res.cloudinary.com/dlioaagoi/image/upload/v1690713945/req-frm-mckp_iosupe.png" alt="" />
+                            {/* <img src="https://res.cloudinary.com/dlioaagoi/image/upload/v1690713945/req-frm-mckp_iosupe.png" alt="" /> */}
                                     <form className="contact-emailjs" ref={formEl} onSubmit={sendEmail} action="action_page.php">
 
                                         <label for="fname">First Name</label>
@@ -54,7 +56,7 @@ const Contact = () => {
                                         <label for="subject">Subject</label>
                                         <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
 
-                                        <input type="submit" value="Submit" />
+                                       <a href=""><button className='contact-submit signin' type="submit" value="Submit" >Submit</button></a> 
 
                                     </form>
                                 

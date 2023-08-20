@@ -14,8 +14,8 @@ const Whychooseus = () => {
         <div className='whychooseus-section'>
             <div className="whychooseus align-items-center row">
                 <div className="whychooseus-top-side">
-                    <h5 className='text-center m-0 pt-2 pb-3'>Niyə bizi seçin</h5>
-                    <h2 className='text-center'>Biz nə təklif edirik <img width={50} src="https://res.cloudinary.com/dlioaagoi/image/upload/v1691437608/feed_9474387_i8abd6.png" alt="" /></h2>
+                    <h5 className='center-texti m-0 pt-2 pb-3'>Niyə bizi seçin</h5>
+                    <h2 className='center-text'>Biz nə təklif edirik <img width={50} src="https://res.cloudinary.com/dlioaagoi/image/upload/v1691437608/feed_9474387_i8abd6.png" alt="" /></h2>
                 </div>
                 <div className="why-left-side col-12 col-md-6" data-aos="fade-up-right">
                     <img className='pe-3 pb-5 why-left-img' src="https://res.cloudinary.com/dlioaagoi/image/upload/v1690926738/64-scaled_kv8aud.webp" alt="marketing-img" />
