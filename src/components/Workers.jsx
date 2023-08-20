@@ -13,7 +13,7 @@ const Workers = () => {
     const [infolar, setInfolar] = useState(null)
 
     useEffect(() => {
-        fetch("public/jsons/workers.json")
+        fetch("https://64e23c64ab0037358818dc41.mockapi.io/ishciler")
             .then(response => response.json())
             .then(WorkersInfo => setInfolar(WorkersInfo))
     }, [])
