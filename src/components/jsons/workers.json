@@ -2,7 +2,7 @@
     {
         "id": 1,
         "worker_img" : "https://res.cloudinary.com/dlioaagoi/image/upload/v1691421905/rag-dolls-one-blue_t1lccb.jpg",
-        "worker_name" : "Vakansiya",
+        "worker_name" : "VAKANSİYA",
         "worker_rank" : "Sosial Media Mütəxəsisi",
         "worker_media" : "Daha ətraflı"
     },
@@ -11,12 +11,12 @@
         "worker_img" : "https://res.cloudinary.com/dlioaagoi/image/upload/v1691422090/WhatsApp_Image_2023-08-07_at_19.25.16_mqr3bt.jpg",
         "worker_name" : "Teyyub Mammadov",
         "worker_rank" : "Sahib və baş direktor",
-        "worker_media" : "Social media"
+        "worker_media" : "Sosial media"
     },
     {
         "id": 3,
         "worker_img" : "https://res.cloudinary.com/dlioaagoi/image/upload/v1691421905/rag-dolls-one-blue_t1lccb.jpg",
-        "worker_name" : "Vakansiya",
+        "worker_name" : "VAKANSİYA",
         "worker_rank" : "Qrafik-dizayner",
         "worker_media" : "Daha ətraflı"
     }

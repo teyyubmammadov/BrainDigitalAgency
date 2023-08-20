@@ -677,6 +677,11 @@ input[type=submit]:hover {
   /* position: absolute; */
 }
 .contact-emailjs{
+  background-color: #0094D9;
+  padding: 20px;
+  padding-bottom: 41px;
+  border-radius: 20px;
+  box-shadow: 3px 7px 50px 6px #6e22a9;
   margin-top: 68px;
 }
 /* .contact-emailjs{
