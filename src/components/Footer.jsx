@@ -1,8 +1,14 @@
 import React from 'react'
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
   return (
     <>
+   
+     
+      
+      <ScrollToTop smooth color="#2A53FE" />
+  
       {/* Remove the container if you want to extend the Footer to full width. */}
       <div className="">
 

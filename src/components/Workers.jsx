@@ -3,13 +3,17 @@ import Worker from './Worker'
 import { HiUserGroup } from "react-icons/hi";
 import WorkersInfo from './jsons/workers.json'
 
+// const path = require("path")
+
 
 const Workers = () => {
+
+    // console.log(path.join(__dirname))
 
     const [infolar, setInfolar] = useState(null)
 
     useEffect(() => {
-        fetch("./src/components/jsons/workers.json")
+        fetch("public/jsons/workers.json")
             .then(response => response.json())
             .then(WorkersInfo => setInfolar(WorkersInfo))
     }, [])
@@ -18,7 +22,7 @@ const Workers = () => {
         <div className="kart">
             <div className="container">
                 <div className="comando-top-side">
-                    <h1 className='text-white center-text mb-2'>İcra komandası <HiUserGroup/></h1>
+                    <h1 className='text-white center-text mb-2'>Bizim komandamız <HiUserGroup/></h1>
                 </div>
                 <div className="row justify-content-around">
 
