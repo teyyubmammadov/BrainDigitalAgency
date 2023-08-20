@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import Worker from './Worker'
 import { HiUserGroup } from "react-icons/hi";
-import WorkersInfo from './jsons/workers.json'
 
-// const path = require("path")
+
+
 
 
 const Workers = () => {
 
-    // console.log(path.join(__dirname))
+
 
     const [infolar, setInfolar] = useState(null)
 
