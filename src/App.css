@@ -22,6 +22,10 @@ p{
 a {
   color: black;
 }
+.scroll-to-top{
+  right: 110px !important;
+  bottom: 45px !important;
+}
 /* NAVBAR START */
 
 .sehifelerimiz{
