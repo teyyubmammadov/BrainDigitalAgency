@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 :root {
   --navbar-bottom-color: #004AAD;
   --navbar-top: #F0F4FD;
@@ -13,7 +16,9 @@
 p{
   font-weight: 600;
 }
-
+body{
+  font-family: 'Poppins', sans-serif;
+}
 * {
   list-style: none;
   text-decoration: none !important;
@@ -46,7 +51,7 @@ a {
   display: block;
   color: #fff;
   font-weight: 400;
-  font-family:Arial, Helvetica, sans-serif;
+  /* font-family:Arial, Helvetica, sans-serif; */
   background-color: #273c75;
 }
 .sehifelerimiz:hover .dropdown-sehifeler{
@@ -73,7 +78,7 @@ a {
   display: block;
   color: #fff;
   font-weight: 400;
-  font-family:Arial, Helvetica, sans-serif;
+  /* font-family:Arial, Helvetica, sans-serif; */
   background-color: #273c75;
 }
 .xidmetlerimiz:hover .dropdown-xidmetler{
@@ -111,7 +116,7 @@ background-image: linear-gradient(270deg, #2156fd 0%, #B721FF 100%);
 }
 .navbar-collapse ul>li>a {
   color: #FFF !important;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; */
   font-weight: 700;
   font-size: 20px !important;
 }
@@ -130,7 +135,7 @@ span .navbar-toggler-icon {
   position: relative;
   border: none;
   font-size: 14px;
-  font-family: inherit;
+  /* font-family: inherit; */
   color: #fff;
   /* width: 9em;
   height: 3em; */
@@ -240,13 +245,13 @@ span .navbar-toggler-icon {
   font-weight: 700;
   padding: 55px 0 0 40px;
   font-size: 54px;
-  font-family: "Open Sans";
+  /* font-family: "Open Sans"; */
   color: #FFF;
   margin-bottom: 20px;
 }
 
 .slide1-left h5 {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 20px;
   padding-left:40px;
   letter-spacing: 0px;
@@ -277,12 +282,12 @@ span .navbar-toggler-icon {
   padding: 55px 0 0 40px;
   font-weight: 700;
   font-size: 50px;
-  font-family: "Open Sans";
+  /* font-family: "Open Sans"; */
   color: #FFF;
   margin-bottom: 28px;
 }
 .slide2-left h5 {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 20px;
   letter-spacing: 0px;
   font-weight: 400;
@@ -298,7 +303,7 @@ span .navbar-toggler-icon {
   color: white;
   background-color: rgb(199, 106, 11);
   font-size: 25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   border-radius: 20px;
 }
 .howit1:hover{
@@ -344,7 +349,7 @@ span .navbar-toggler-icon {
   color: white;
   background-color: rgb(199, 106, 11);
   font-size: 25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   border-radius: 20px;
 }
 
@@ -448,7 +453,7 @@ span .navbar-toggler-icon {
 }
 
 .whychooseus-top-side h5{
-  font-family: "Nunito",Sans-serif; 
+  /* font-family: "Nunito",Sans-serif;  */
   font-size: 16px;
   font-weight: 520;
   text-transform: uppercase;
@@ -473,9 +478,9 @@ span .navbar-toggler-icon {
   height: 60px;
 }
 .digital-info-1, .reputasiya-info-1, .kampaniya-info-1{
-  font-family: "Open Sans";
+  /* font-family: "Open Sans"; */
   font-weight: 700;
-  font-size: 28px;
+  font-size: 26px;
 }
 .digital-info-2, .reputasiya-info-2, .kampaniya-info-2{
   margin-bottom: 1px !important;
@@ -622,9 +627,21 @@ span .navbar-toggler-icon {
 /* Worker START */
 .worker-card {
   box-shadow: 13px 16px 26px 5px rgb(0, 0, 0, 0.5);
+  transition:  1s ease-in;
+  cursor: pointer;
+}
+.worker-card:hover{
+  transform: scale(1.1);
+
+}
+.worker-card:hover  .card-body a{
+  visibility: visible;
 }
 .card-img-top{
   height: 285px;
+}
+.worker-card .card-body a{
+  visibility: hidden;
 }
 /* Worker END */
 
