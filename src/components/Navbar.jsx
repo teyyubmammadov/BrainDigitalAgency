@@ -86,8 +86,8 @@ const Navbar = () => {
                             </ul>
 
                             <div className="sign">
-                                <a href=""><button className=' signin' type='button'>Sign Up</button></a>
-                                <a href=""><button className=' ms-3 signin' type='button'>Log in</button></a>
+                                <Link to="signup"><button className=' signin' type='button'>Sign Up</button></Link>
+                                <Link to="login"><button className=' ms-3 signin' type='button'>Log in</button></Link>
                             </div>
 
                                 {/* <li className="nav-item dropdown">

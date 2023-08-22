@@ -38,7 +38,7 @@ const Contact = () => {
                                     <form className="contact-emailjs text-white" ref={formEl} onSubmit={sendEmail} action="action_page.php">
 
                                         <label for="fname">First Name</label>
-                                        <input type="text" id="fname" name="name" placeholder="Your name.." />
+                                        <input type="text" id="lname" name="name" placeholder="Your name.." />
 
                                         <label for="lname">Last Name</label>
                                         <input type="text" id="lname" name="surname" placeholder="Your last name.." />

@@ -19,7 +19,7 @@ const Workers = () => {
     }, [])
 
     return (
-        <div className="kart">
+        <div className="kart container">
             <div className="container">
                 <div className="comando-top-side">
                     <h1 className='text-white center-text mb-2'>Bizim komandamız <HiUserGroup/></h1>
