@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import SignUp from './pages/SignUp'
 import Login from './pages/Login'
 import { DotLoader } from 'react-spinners'
+import NotFound from './pages/404/NotFound'
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
     setLoading(true)
     setTimeout(() =>{
     setLoading(false)
-    }, 3500)
+    }, 3000)
   }, [])
 
   return (
@@ -45,6 +46,7 @@ const App = () => {
             <Route path='contact' element={<Contact />} />
             <Route path='signup' element={<SignUp/>} />
             <Route path='login' element={<Login/>} />
+            <Route path='*' element={<NotFound/>} />
           </Routes>
       </BrowserRouter>
       )} 
