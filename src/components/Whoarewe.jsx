@@ -25,18 +25,18 @@ const Whoarewe = () => {
             <p>Brain Rəqəmsal Agentliyi müştərilərə rəqəmsal marketinq, SEO və rəqəmsal reklam kampaniyaları yaratmaqda, məzmun istehsalı, sosial medianın idare edilməsi, vebsaytların dizaynı və inkişafı kimi rəqəmsal sahələrdə xidmətlər göstərən agentlikdir. Agentlik olaraq bizneslərin onlayn mövcudluğunu inkişaf etdirmək, onların rəqəmsal platformalarda görünməsini təmin etmək, müştəri cəlbini artırmaq və rəqəmsal marketinq strategiyaları yaratmaq üçün çalışır.</p>
           </div>
           {/* <img width={200} height={10} className='' src="https://res.cloudinary.com/dlioaagoi/image/upload/v1691092442/minus_545760-removebg-preview_ga4u7o.png" alt="line" /> */}
-              <div data-aos="fade-down-right" className="ratingm d-flex">
-                <input value="5" name="rate" id="star5" type="radio" />
-                <label title="Mükəmməl" for="star5"></label>
-                <input value="4" name="rate" id="star4" type="radio" />
-                <label title="Qənaətbəxş" for="star4"></label>
-                <input value="3" name="rate" id="star3" type="radio" checked="" />
-                <label title="Orta" for="star3"></label>
-                <input value="2" name="rate" id="star2" type="radio" />
-                <label title="Kafi" for="star2"></label>
-                <input value="1" name="rate" id="star1" type="radio" />
-                <label title="Çox pis" for="star1"></label>
-              </div>
+          <div data-aos="fade-down-right" className="ratingm d-flex">
+            <input value="5" name="rate" id="star5" type="radio" />
+            <label title="Mükəmməl" for="star5"></label>
+            <input value="4" name="rate" id="star4" type="radio" />
+            <label title="Qənaətbəxş" for="star4"></label>
+            <input value="3" name="rate" id="star3" type="radio" checked="" />
+            <label title="Orta" for="star3"></label>
+            <input value="2" name="rate" id="star2" type="radio" />
+            <label title="Kafi" for="star2"></label>
+            <input value="1" name="rate" id="star1" type="radio" />
+            <label title="Çox pis" for="star1"></label>
+          </div>
           <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
             <div className="rating mt-4 row d-flex">
               <div className="ugurlu-layiheler col-md-6" data-aos="zoom-in">

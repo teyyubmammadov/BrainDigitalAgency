@@ -4,11 +4,26 @@ import ScrollToTop from "react-scroll-to-top";
 const Footer = () => {
   return (
     <>
-   
-     
-      
+      {/* 3D kvadrat animasiya */}
+      <div className="areas" >
+        <ul className="circless">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div >
+      {/* son */}
+
+
       <ScrollToTop smooth color="#2A53FE" />
-  
+
       {/* Remove the container if you want to extend the Footer to full width. */}
       <div className="">
 
