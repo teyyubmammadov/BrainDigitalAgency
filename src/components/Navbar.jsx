@@ -38,9 +38,9 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-top-right-side">
-                    <a className='instagram' href="https://www.instagram.com/brain.digitalagency/" target='_blank'><FiInstagram/></a> 
-                    <a className='ms-3 facebook' href="https://www.facebook.com/brain.digitalagency2022/" target='_blank' ><FiFacebook/></a>
-                    <a className='ms-3 youtube' href="https://www.youtube.com" target='_blank'><FiYoutube/></a>   
+                    <a className='instagram signin' href="https://www.instagram.com/brain.digitalagency/" target='_blank'><FiInstagram/></a> 
+                    <a className='ms-3 facebook signin' href="https://www.facebook.com/brain.digitalagency2022/" target='_blank' ><FiFacebook/></a>
+                    <a className='ms-3 youtube signin' href="https://www.youtube.com" target='_blank'><FiYoutube/></a>   
                 </div>
 
             </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
                                         </div>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link  ms-5" href="#">Haqqımızda</a>
+                                    <Link className="nav-link  ms-5" to="homea">Haqqımızda</Link>
                                 </li>
                                 <li className="nav-item xidmetlerimiz">
                                     <a className="nav-link  ms-5" href="#">Xidmətlər<FiChevronDown/></a>
@@ -86,8 +86,8 @@ const Navbar = () => {
                             </ul>
 
                             <div className="sign">
-                                <Link to="signup"><button className=' signin' type='button'>Sign Up</button></Link>
-                                <Link to="login"><button className=' ms-3 signin' type='button'>Log in</button></Link>
+                                {/* <Link to="signup"><button className=' signin' type='button'>Sign Up</button></Link> */}
+                                <Link to="signup"><button className=' ms-3 me-1 signin' type='button'>Daxil ol</button></Link>
                             </div>
 
                                 {/* <li className="nav-item dropdown">
