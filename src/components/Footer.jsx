@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       {/* 3D kvadrat animasiya */}
-      <div className="areas" >
+      {/* <div className="areas" >
         <ul className="circless">
           <li></li>
           <li></li>
@@ -18,7 +18,7 @@ const Footer = () => {
           <li></li>
           <li></li>
         </ul>
-      </div >
+      </div > */}
       {/* son */}
 
 
