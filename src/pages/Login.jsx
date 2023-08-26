@@ -1,6 +1,6 @@
 import React, {useState, useContext, useRef} from 'react'
 import '../pages/Login.css'
-import { json, useNavigate } from 'react-router-dom'
+import { Link, json, useNavigate } from 'react-router-dom'
 
 import SignUp from './SignUp'
 const Login = () => {
@@ -37,24 +37,24 @@ const Login = () => {
          <div className="login">
           <div className="forms">
             <form  onSubmit={handleLogin}>
-            <label htmlFor="Email">Email</label>
+            <label htmlFor="Email">e-poçt</label>
                       <input type="email" 
                        className='form-control'
                          value={loginEmail}
-                         placeholder='Enter your Email'
+                         placeholder='E-poçtunuzu daxil edin'
                        onChange={(e) => setLoginEmail(e.target.value)}
                           />
                          <br />
-                        <label htmlFor="Password">Password</label>
+                        <label htmlFor="Password">şifrə</label>
                       <input type="password"
                        className='form-control'
                    value={loginPassword}
-                         placeholder='Enter your Password'
+                         placeholder='Şifrənizi daxil edin'
                        onChange={(e) => setLoginPassword(e.target.value)}
                        
                 
                      />
-                       <button type='submit' className='btn btn-primary'>Login</button>
+                       <button type='submit' className='btn btn-register btn-primary'>Daxil ol</button>
                          {errorMessage && <p style={{
                           color: "red",
                         display: "flex",
@@ -62,6 +62,8 @@ const Login = () => {
                           justifyContent: "space-between",
                          alignItems: "center"
                          }}>{errorMessage}</p>}
+
+                      <Link to="signup"><button type='submit' className='btn btn-register me-2 btn-primary'>Geri qayıt</button></Link>
             </form>
           </div>
          </div>

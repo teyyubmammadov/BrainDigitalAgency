@@ -10,6 +10,7 @@ import SignUp from './pages/SignUp'
 import Login from './pages/Login'
 import { DotLoader } from 'react-spinners'
 import NotFound from './pages/404/NotFound'
+import Aboutus from './pages/About/Aboutus'
 
 
 const App = () => {
@@ -45,7 +46,9 @@ const App = () => {
             <Route path='/' element={<Home />} />
             <Route path='contact' element={<Contact />} />
             <Route path='signup' element={<SignUp/>} />
+            <Route path='login/signup' element={<SignUp/>} />
             <Route path='login' element={<Login/>} />
+            <Route path='aboutus' element={<Aboutus/>} />
             <Route path='*' element={<NotFound/>} />
           </Routes>
       </BrowserRouter>

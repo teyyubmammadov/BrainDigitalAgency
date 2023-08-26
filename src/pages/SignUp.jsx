@@ -41,24 +41,24 @@ else{
           <div className="right-side " >
                 <div className="form-section">
                     <div className="heading">
-                        <h2>Create An Account</h2>
+                        <h2>Hesabınızı yaradın!</h2>
                     </div>
                     <form  onSubmit={handleSubmit}>
-                        <label htmlFor="Name">Name</label>
+                        <label htmlFor="Name">ad</label>
                       <input 
                       type="text" 
                          className='form-control '
-                      placeholder='Enter your Name'
+                      placeholder='Adınızı daxil edin'
                       value={registerUsername}
                       onChange={(e) => setRegisterUsername(e.target.value)}
                     
                          />
             
                          <br />
-                      <label htmlFor="email">Email</label>
+                      <label htmlFor="email">e-poçt</label>
                        <input type="email" 
                          className='form-control'
-                          placeholder='Enter your Email'
+                          placeholder='E-poçtunuzu daxil edin'
                           //  onBlur={handleEmailValidation}
                           value={registerEmail}
                           onChange={(e) => setRegisterEmail(e.target.value)}
@@ -66,10 +66,10 @@ else{
                         />
                         { errorEmail && <p style={{color: "red", paddingTop: "5px"}}>{errorEmail}</p>}
                         <br />
-                         <label htmlFor="password">Password</label>
+                         <label htmlFor="password">şifrə</label>
                         <input type="password"
                        className='form-control'
-                         placeholder='Enter your Password'
+                         placeholder='Şifrənizi daxil edin'
                          value={registerPassword}
                           // onBlur={handleValidation}
                          
@@ -79,7 +79,7 @@ else{
                          />
                          {errorPassword && <p style={{color: 'red', paddingTop: '5px'}}>{errorPassword}</p>}
                          
-                         <button type='submit' className='btn btn-primary'>Register</button>
+                         <button type='submit' className='btn btn-register btn-primary'>Qeydiyyatdan keçin</button>
                          {errorMessage && <p  className="error" style={{
                           color: "red",
                               maxWidth: "400px",
@@ -89,7 +89,7 @@ else{
                          }}>{errorMessage}</p>}
                    </form>
                    <div className="account">
-                   <p>Have already an account?</p> <Link className='link' to= '/login'>Login here</Link>
+                   <p>Artıq hesabınız var?</p> <Link className='link' to= '/login'>Buradan daxil olun</Link>
                    </div>
                    
                 </div>

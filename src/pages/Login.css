@@ -1,139 +1,162 @@
-
-
-                                    /* LOG IN SIGN UP START */
+/* LOG IN SIGN UP START */
 
 
 
 
-                                    .signup-section {
-                                        /* padding-top: 150px; */
-                                        padding-bottom: 50px;
-                                        /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/login.gif) no-repeat; */
-                                        /* height: 100vh; */
-                                        background-size: cover;
-                                        width: 100%;
-                                        background-position: center;
-                                        display: flex;
-                                        align-items: center;
-                                      }
-                                      
-                                      .signup-section .signup {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        margin: 0 auto;
-                                      }
-                                      
-                                      .signup-section .signup .right-side .form-section input {
-                                        width: 400px;
-                                      }
-                                      
-                                      .signup-section .signup {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                      }
-                                      .signup-section .signup .right-side {
-                                        margin-top: 20px;
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                      }
-                                      .signup-section .signup .right-side .form-section {
-                                        height: 510px;
-                                        padding: 20px;
-                                        border: 1px solid #eee;
-                                        border-radius: 8px;
-                                        width: 600px;
-                                        background-color: #fcfcfc;
-                                      }
-                                      .signup-section .signup .right-side .form-section .heading h2 {
-                                        color: #47bd2a;
-                                        font-size: 34px;
-                                        text-align: center;
-                                        font-weight: 700;
-                                      }
-                                      .signup-section .signup .right-side .form-section label {
-                                        color: #222;
-                                      }
-                                      .signup-section .signup .right-side .form-section input {
-                                        border: 1px solid rgba(68, 171, 219, 0.712);
-                                        outline: none;
-                                        border-radius: 5px;
-                                        background: transparent;
-                                        color: #222;
-                                      }
-                                      .signup-section .signup .right-side .form-section ::-webkit-input-placeholder {
-                                        color: #222 !important;
-                                      }
-                                      
-                                      .account {
-                                        display: flex;
-                                        padding-top: 45px;
-                                        margin: 0 auto;
-                                        justify-content: center;
-                                      }
-                                      
-                                      .account .link {
-                                        color: #222;
-                                        font-weight: 700;
-                                        text-decoration: underline !important;
-                                      }
-                                      
-                                      .login-section {
-                                        /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/login.gif) no-repeat; */
-                                        height: 552px;
-                                        background-size: cover;
-                                        width: 100%;
-                                        background-position: center;
-                                        display: flex;
-                                        align-items: center;
-                                      }
-                                      
-                                      .login-section .login {
-                                        display: flex;
-                                        margin: 0 auto;
-                                        align-items: center;
-                                        justify-content: center;
-                                      }
-                                      .login-section .forms {
-                                        height: 350px;
-                                        padding: 20px;
-                                        border: 1px solid #eee;
-                                        border-radius: 8px;
-                                        width: 500px;
-                                        background-color: #fcfcfc;
-                                      }
-                                      
-                                      @media (max-width: 768px) {
-                                        .signup-section {
-                                          padding-top: 150px;
-                                        }
-                                        .signup-section .signup .right-side .form-section {
-                                          height: 600px;
-                                          display: flex;
-                                          align-items: center;
-                                          width: 100%;
-                                        }
-                                        .signup-section .signup .right-side .form-section input {
-                                          width: 100%;
-                                        }
-                                        .signup-section .signup .right-side .error {
-                                          font-size: 14px;
-                                          margin-left: 30px;
-                                        }
-                                      }
-                                      @media (max-width: 350px) {
-                                        .signup-section .signup .right-side .form-section {
-                                          width: 100%;
-                                          height: auto;
-                                        }
-                                        .signup-section .signup .right-side .heading h2 {
-                                          font-size: 24px;
-                                        }
-                                        .signup-section .signup .right-side input {
-                                          width: 100px;
-                                        }
-                                      }/*# sourceMappingURL=Login.css.map */
-                                                       
-                                                                                  /* LOG IN SIGN UP THE END */
-                                      
+.signup-section {
+  /* padding-top: 150px; */
+  padding-bottom: 50px;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/login.gif) no-repeat; */
+  /* height: 100vh; */
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.signup-section .signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.signup-section .signup .right-side .form-section input {
+  width: 400px;
+}
+
+.signup-section .signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-section .signup .right-side {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.signup-section .signup .right-side .form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 510px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  width: 600px;
+  background-color: #fcfcfc;
+}
+
+.signup-section .signup .right-side .form-section .heading h2 {
+  color: #47bd2a;
+  font-size: 34px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.signup-section .signup .right-side .form-section label {
+  color: #222;
+}
+
+.signup-section .signup .right-side .form-section input {
+  border: 1px solid rgba(68, 171, 219, 0.712);
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #222;
+}
+
+.signup-section .signup .right-side .form-section ::-webkit-input-placeholder {
+  color: #222 !important;
+}
+
+.account {
+  display: flex;
+  padding-top: 45px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.account .link {
+  color: #222;
+  font-weight: 700;
+  text-decoration: underline !important;
+}
+
+.login-section {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/login.gif) no-repeat; */
+  height: 552px;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.login-section .login {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-section .forms {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  width: 500px;
+  background-color: #fcfcfc;
+}
+.btn-register{
+  float: right;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .signup-section {
+    padding-top: 150px;
+  }
+
+  .signup-section .signup .right-side .form-section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .signup-section .signup .right-side .form-section input {
+    width: 100%;
+  }
+
+  .signup-section .signup .right-side .error {
+    font-size: 14px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .signup-section .signup .right-side .form-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .signup-section .signup .right-side .heading h2 {
+    font-size: 24px;
+  }
+
+  .signup-section .signup .right-side input {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=Login.css.map */
+
+/* LOG IN SIGN UP THE END */

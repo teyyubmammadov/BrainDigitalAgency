@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaTeamspeak } from "react-icons/fa";
+import Footer from './Footer';
 
 
 const Contact = () => {
@@ -23,6 +24,7 @@ const Contact = () => {
     // formEl.current.reset()
 
     return (
+        <>
         <div className="contacto">
             <div className="contact py-3">
                 <h1 className='text-white center-text'>Bizimlə əlaqə <FaTeamspeak /></h1>
@@ -66,6 +68,8 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 
