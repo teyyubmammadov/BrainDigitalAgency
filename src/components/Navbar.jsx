@@ -55,12 +55,12 @@ const Navbar = () => {
                             <button onClick={overlayiAc} className="navbar-toggler border border-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <AiOutlineBars />
                             </button>
-                            <div className="contact-navbar">
+                            {/* <div className="contact-navbar">
                                 <a href="tel:+994509905503" className='sign-tel btn signin'><FiPhoneCall /> </a>
                                 <a className='ms-5 sign-tel signin btn' href="mailto:braindigitalagency.1@gmail.com"><SlEnvolope /></a>
                                 <a className='instagram signin sign-tel' href="https://www.instagram.com/brain.digitalagency/" target='_blank'><FiInstagram /></a>
                                 <a className='ms-3 facebook signin sign-tel' href="https://www.facebook.com/brain.digitalagency2022/" target='_blank' ><FiFacebook /></a>
-                            </div>
+                            </div> */}
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 ms-5">
                                     <li className="nav-item">

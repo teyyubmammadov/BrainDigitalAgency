@@ -1,44 +1,49 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="/brainfavicon.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script>
-       "use strict";
-  
-  !function() {
-    var t = window.driftt = window.drift = window.driftt || [];
-    if (!t.init) {
-      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-      t.factory = function(e) {
-        return function() {
-          var n = Array.prototype.slice.call(arguments);
-          return n.unshift(e), t.push(n), t;
-        };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-        var i = document.getElementsByTagName("script")[0];
-        i.parentNode.insertBefore(o, i);
-      };
-    }
-  }();
-  drift.SNIPPET_VERSION = '0.3.1';
-  drift.load('apwsva63p62n');
-    </script>
-    
-    <title>Brain - Digital Marketing Agency</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    
-    <script type="module" src="/src/main.jsx"></script>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="/brainfavicon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    "use strict";
+
+    !function () {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+          t.factory = function (e) {
+            return function () {
+              var n = Array.prototype.slice.call(arguments);
+              return n.unshift(e), t.push(n), t;
+            };
+          }, t.methods.forEach(function (e) {
+            t[e] = t.factory(e);
+          }), t.load = function (t) {
+            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+            var i = document.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(o, i);
+          };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('apwsva63p62n');
+  </script>
+
+  <title>Brain - Digital Marketing Agency</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.jsx"></script>
+
+</body>
+
 </html>

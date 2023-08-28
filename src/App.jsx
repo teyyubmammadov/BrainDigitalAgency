@@ -4,13 +4,13 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Navbar from './components/Navbar'
-import Contact from './components/Contact'
 import Home from './pages/Home'
 import SignUp from './pages/SignUp'
 import Login from './pages/Login'
 import { DotLoader } from 'react-spinners'
 import NotFound from './pages/404/NotFound'
 import Aboutus from './pages/About/Aboutus'
+import WeContact from './pages/Contact/WeContact'
 
 
 const App = () => {
@@ -44,7 +44,7 @@ const App = () => {
         <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='contact' element={<Contact />} />
+            <Route path='contact' element={<WeContact />} />
             <Route path='signup' element={<SignUp/>} />
             <Route path='login/signup' element={<SignUp/>} />
             <Route path='login' element={<Login/>} />

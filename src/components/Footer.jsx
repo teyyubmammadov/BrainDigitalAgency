@@ -54,10 +54,10 @@ const Footer = () => {
                 </p>
 
                 <div className="mt-4 d-flex  justify-content-evenly">
-                  <a type="button" className="btn btn-floating btn-light btn-lg"><i className="fab fa-facebook-f"></i></a>
-                  <a type="button" className="btn btn-floating btn-light btn-lg"><i class="fa-brands fa-youtube"></i></a>
-                  <a type="button" className="btn btn-floating btn-light btn-lg"><i class="fa-brands fa-instagram"></i></a>
-                  <a type="button" className="btn btn-floating btn-light btn-lg"><i className="fab fa-google-plus-g"></i></a>
+                  <a type="button" href="https://www.facebook.com/brain.digitalagency2022/" target='_blank' className="btn btn-floating btn-light btn-lg"><i className="fab fa-facebook-f"></i></a>
+                  <a type="button" href="tel:+994509905503" className="btn btn-floating btn-light btn-lg"><i class="fa-solid fa-phone-volume"></i></a>
+                  <a type="button" href="https://www.instagram.com/brain.digitalagency/" target='_blank' className="btn btn-floating btn-light btn-lg"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a type="button" href="mailto:braindigitalagency.1@gmail.com" className="btn btn-floating btn-light btn-lg"><i className="fab fa-google-plus-g"></i></a>
                 </div>
               </div>
               {/*Grid column*/}

@@ -142,9 +142,7 @@ span .navbar-toggler-icon {
     display: none;
   }
 }
-.sign-tel{
- float: right;
-}
+
 
 .signin{
   font-weight: 600;
@@ -551,17 +549,33 @@ span .navbar-toggler-icon {
   color: #fff !important;
   
 }
-@media(max-width:375px){
+.why-digital-side, .why-kampaniya-side, .why-reputasiya-side{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto !important;
+}
+
+@media(max-width:454px){
+  .why-digital-side, .why-kampaniya-side, .why-reputasiya-side{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto !important;
+  }
   .digital-info-1, .reputasiya-info-1, .kampaniya-info-1{
     font-size: 18px;
   }
   .digital-img, .reputasiya-img, .kampaniya-img {
-    width: 60px;
-    height: 55px;
+    width: 50px;
+    height: 45px;
 }
 .digital-info-2, .reputasiya-info-2, .kampaniya-info-2 {
   font-size: 13px;
  
+}
+.fa-2xl{
+  font-size: 25px;
 }
 }
 /* WHY CHOOSE SECTION END */

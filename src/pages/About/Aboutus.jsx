@@ -70,7 +70,7 @@ const Aboutus = () => {
     </div>
           {/* emekdasliq etdiyimiz saheler */}
           <PartnyorCompanies/>
-          <Workers/>
+          {/* <Workers/> */}
           <Footer/>
     </>
     

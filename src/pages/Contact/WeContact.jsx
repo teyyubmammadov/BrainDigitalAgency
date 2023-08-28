@@ -1,10 +1,11 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaTeamspeak } from "react-icons/fa";
-import Footer from './Footer';
+import Footer from '../../components/Footer';
 
 
-const Contact = () => {
+
+const WeContact = () => {
     const formEl = useRef();
 
     const sendEmail = (e) => {
@@ -68,9 +69,9 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        {/* <Footer/> */}
+       <Footer/>
         </>
     )
 }
 
-export default Contact
+export default WeContact
