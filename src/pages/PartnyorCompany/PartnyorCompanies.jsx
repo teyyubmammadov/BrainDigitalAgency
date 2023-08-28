@@ -12,7 +12,7 @@ const PartnyorCompanies = () => {
     <>
     <h1 className='center-text text-white'>Əməkdaşlıq etdiyimiz şirkətlər🌐</h1>
     <div className="container">
-        <div className="companiy row">
+        <div className="companiy ms-auto me-auto row">
             <div className="sebra-sport-center m-4 p-2 card col-12 col-md-6 col-lg-5" data-aos="fade-up">
                 <img className='ms-auto me-auto' width={200} src="https://res.cloudinary.com/dlioaagoi/image/upload/v1693078571/h3dfxmbhagmscn0pbfqj.png" alt="" />
                 <h2>Sebra İdman Kompleksi</h2>

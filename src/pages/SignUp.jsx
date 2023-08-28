@@ -1,4 +1,5 @@
-import React, {useState, useRef} from 'react'
+import Aos from 'aos'
+import React, {useState, useEffect, useRef} from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
@@ -33,10 +34,14 @@ else{
 }
 
   }
-
+  useEffect(() => {
+    Aos.init({
+        duration: 1500
+    });
+}, []);
   return (
     <div className='signup-section '>
-        <div className="signup ">
+        <div className="signup container" data-aos="zoom-in">
            
           <div className="right-side " >
                 <div className="form-section">

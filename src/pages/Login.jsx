@@ -1,8 +1,9 @@
-import React, {useState, useContext, useRef} from 'react'
+import React, {useState, useEffect, useContext, useRef} from 'react'
 import '../pages/Login.css'
 import { Link, json, useNavigate } from 'react-router-dom'
 
 import SignUp from './SignUp'
+import Aos from 'aos'
 const Login = () => {
 
   const navigate = useNavigate()
@@ -31,10 +32,15 @@ const Login = () => {
   
     }
   
-  
+    useEffect(() => {
+      Aos.init({
+          duration: 1500
+      });
+  }, []);
+
   return (
     <div className='login-section'>
-         <div className="login">
+         <div className="login container" data-aos="zoom-in">
           <div className="forms">
             <form  onSubmit={handleLogin}>
             <label htmlFor="Email">e-poçt</label>
