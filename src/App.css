@@ -1,5 +1,8 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
 
 :root {
   --navbar-bottom-color: #004AAD;
@@ -142,7 +145,9 @@ span .navbar-toggler-icon {
     display: none;
   }
 }
-
+.sign-tel{
+  width: 53px;
+}
 
 .signin{
   font-weight: 600;
@@ -264,9 +269,9 @@ span .navbar-toggler-icon {
 
 .slide1-left h1 {
   font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 55px 0 0 40px;
   font-size: 54px;
-  font-family: "Open Sans";
   color: #FFF;
   margin-bottom: 20px;
 }
@@ -301,9 +306,9 @@ span .navbar-toggler-icon {
 
 .slide2-left h1 {
   padding: 55px 0 0 40px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 50px;
-  font-family: "Open Sans";
   color: #FFF;
   margin-bottom: 28px;
 }
@@ -374,7 +379,35 @@ span .navbar-toggler-icon {
   border-radius: 20px;
 }
 
+@media(max-width:1238px){
+  .slide1-left h1 {
+    padding: 55px 0 0 40px;
+    font-size: 40px;
+  }
+  
+  .slide1-left h5 {
+    font-size: 16px;
+    padding-left:40px;
+    margin-bottom: 40px;
+  }
+  .slide2-left h1 {
+    padding: 55px 0 0 40px;
+    font-size: 40px;
+  }
+  
+  .slide2-left h5 {
+    font-size: 16px;
+    padding-left:40px;
+    margin-bottom: 40px;
+  }
+}
 @media(max-width:768px) {
+  .swiper-button-prev{
+    visibility: hidden;
+  }    
+  .swiper-button-next{
+    visibility: hidden;
+  }
   .swiperslide1 .slide1-left {
     padding: 0 22px 0 44px;
     order: 2;
@@ -408,14 +441,16 @@ span .navbar-toggler-icon {
 @media(max-width:500px){
   .swiperslide1 .slide1-left {
     order: 2;
-    padding: 0 15px 0 42px;
+    padding: 0 0 0 24px;
+    /* padding: 0 15px 0 42px; */
   }
   .swiper-button-prev:after, .swiper-button-next:after {
     font-size: 30px !important;
   }
   .swiperslide2 .slide2-left {
     order: 2;
-    padding: 0 15px 0 42px;
+    padding: 0 0 0 24px;
+    /* padding: 0 15px 0 42px; */
   }
   .slide1-left h1 {
     padding: 25px 0 0 0px;
@@ -423,7 +458,7 @@ span .navbar-toggler-icon {
   }
   
   .slide1-left h5 {
-    font-size: 20px;
+    font-size: 16px;
     padding-left:0;
     margin-bottom: 40px;
   }
@@ -433,7 +468,7 @@ span .navbar-toggler-icon {
   }
   
   .slide2-left h5 {
-    font-size: 20px;
+    font-size: 16px;
     padding-left:0;
     margin-bottom: 40px;
   }
@@ -652,6 +687,13 @@ span .navbar-toggler-icon {
 }
 .whoarewe-right-side img {
   width: 100%;
+}
+.whoarewe-info h3{
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.whoarewe-info p{
+  font-weight: 400;
 }
 @media(max-width:768px) {
   .whoarewe{
