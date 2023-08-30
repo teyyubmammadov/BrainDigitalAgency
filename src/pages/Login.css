@@ -121,9 +121,9 @@
 }
 
 @media (max-width: 768px) {
-  .signup-section {
+  /* .signup-section {
     padding-top: 150px;
-  }
+  } */
 
   .signup-section .signup .right-side .form-section {
     height: 600px;

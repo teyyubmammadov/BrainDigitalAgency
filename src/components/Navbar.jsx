@@ -19,13 +19,43 @@ const Navbar = () => {
         <>
             <div className="ovarley" ref={overlayDivi}>
                 <button onClick={overlayiBagla} className='cross-icon'> <ImCross /> </button>
-                <div className="nav-links">
-                    <Link to="/">Home</Link>
-                    <a href="" >Səhifələr<FiChevronDown /></a>
-                    <Link to="aboutus">Haqqımızda</Link>
-                    <a href="">Xidmətlər<FiChevronDown /> </a>
-                    <Link to="contact">Əlaqə</Link>
-                </div>
+                <ul className="nav-links">
+                                    <li className="nav-item">
+                                        <Link className="nav-link" aria-current="page" to="/">Şirkət</Link>
+                                    </li>
+                                    <li className="nav-item ovarley-sehifeler">
+                                        <a className="nav-link" href="#">Səhifələr<FiChevronDown /></a>
+                                        {/* <div className="ovarley-dropdown-sehifeler">
+                                            <a href="#">Sayt xidmetleri</a>
+                                            <a href="#">Reklam xidmetleri</a>
+                                            <a href="#">Sosial media idareetmesi</a>
+                                            <a href="#">Foto & Video chekilish</a>
+                                        </div> */}
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="aboutus">Haqqımızda</Link>
+                                    </li>
+                                    <li className="nav-item ovarley-xidmetler">
+                                        <a className="nav-link" href="#">Xidmətlər<FiChevronDown /></a>
+                                        {/* <div className="ovarley-dropdown-xidmetler">
+                                            <a href="#">Sayt xidmetleri</a>
+                                            <a href="#">Reklam xidmetleri</a>
+                                            <a href="#">Sosial media idareetmesi</a>
+                                            <a href="#">Foto & Video chekilish</a>
+                                        </div> */}
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link  ms-5" to="contact">Əlaqə</Link>
+                                    </li>
+
+                            <div className="contact-navbar d-flex my-3">
+                                <a href="tel:+994509905503" className='sign me-auto ms-auto btn signin'><FiPhoneCall /> </a>
+                                <a className='  ms-auto me-auto  signin btn' href="mailto:braindigitalagency.1@gmail.com"><SlEnvolope /></a>
+                                <a className=' me-auto ms-auto btn signin sign ' href="https://www.instagram.com/brain.digitalagency/" target='_blank'><FiInstagram /></a>
+                                <a className='  me-auto ms-auto btn  signin sign ' href="https://www.facebook.com/brain.digitalagency2022/" target='_blank' ><FiFacebook /></a>
+                            </div>
+                                </ul>
+                                
             </div>
 
             <div classNameName='navbar-section'>
@@ -55,13 +85,7 @@ const Navbar = () => {
                             <button onClick={overlayiAc} className="navbar-toggler border border-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <AiOutlineBars />
                             </button>
-                            {/* <div className="contact-navbar">
-                                <a href="tel:+994509905503" className='sign-tel btn signin'><FiPhoneCall /> </a>
-                                <a className='ms-5 sign-tel signin btn' href="mailto:braindigitalagency.1@gmail.com"><SlEnvolope /></a>
-                                <a className='instagram signin sign-tel' href="https://www.instagram.com/brain.digitalagency/" target='_blank'><FiInstagram /></a>
-                                <a className='ms-3 facebook signin sign-tel' href="https://www.facebook.com/brain.digitalagency2022/" target='_blank' ><FiFacebook /></a>
-                            </div> */}
-                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                           <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 ms-5">
                                     <li className="nav-item">
                                         <Link className="nav-link me-5 ms-5" aria-current="page" to="/">Şirkət</Link>
