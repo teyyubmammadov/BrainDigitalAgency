@@ -39,6 +39,12 @@ const Contact = () => {
                             {/* <img src="https://res.cloudinary.com/dlioaagoi/image/upload/v1690713945/req-frm-mckp_iosupe.png" alt="" /> */}
                             <form className="contact-emailjs text-white" ref={formEl} onSubmit={sendEmail} action="action_page.php">
 
+                               
+                               
+                               
+                               
+                               
+                               
                                 <label for="fname">First Name</label>
                                 <input type="text" id="lname" name="name" placeholder="Your name.." />
 
