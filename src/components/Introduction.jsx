@@ -46,7 +46,6 @@ const Introduction = () => {
               <button type="button" class="btn btn-warning border border-danger howit2">Müraciət et</button>
             </div>
             <img className='slideimg2 p-0 col-12 col-md-7' width={800} src={slide2} />
-
           </div>
         </SwiperSlide>
 
