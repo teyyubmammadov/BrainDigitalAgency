@@ -75,6 +75,7 @@ const Navbar = () => {
 
                 </div>
 
+
                 <div className="navbar-bottom-section">
                     <nav className="navbar expensive-navbar navbar-expand-lg bg-body-tertiary">
                         <div className="container-fluid">
